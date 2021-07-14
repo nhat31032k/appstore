@@ -1,0 +1,3 @@
+để chạy được file demo cần phải cài đặt xampp
+copy thư mục demo vào thư mục htdocs 
+sau đó lên trình duyệt gõ localhost8888:tên thư mục demo/index.php sau đó chờ trình duyệt chạy 

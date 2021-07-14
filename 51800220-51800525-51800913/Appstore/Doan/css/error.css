@@ -1,0 +1,14 @@
+.error-content{
+	margin: auto;
+	text-align: center;
+}
+.error-message{
+	color: #000;
+}
+a.fix-error{
+	text-decoration: none;
+	color: blue;
+}
+a.fix-error:hover{
+	text-decoration: underline;
+}

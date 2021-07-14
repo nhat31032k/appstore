@@ -1,0 +1,254 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;;
+  background-color: #dddddd;
+}
+.content{
+  width: 100%;
+  display: inline-block;
+  clear: both;
+}
+div.nav-content-l{
+  width: 15%;
+  float: left;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 200px;
+}
+.content-r{
+  position: relative;
+  width: 80%;
+  margin-left: 30px;
+  padding-left: 5px;
+  float: right;
+  margin-top: 30px;
+}
+div.table-films{
+  display: table;
+  margin-bottom: 50px;
+}
+div.list-movies-hot{
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 30px;
+  padding-top: 30px;
+}
+div.best-movies a{
+  color: #000;
+  padding-right: 40px;
+  flex-grow: 1;
+  float: left;
+}
+div.best-movies-3 a{
+  color: #000;
+  padding-right: 40px;
+  flex-grow: 1;
+  float: left;
+}
+.phim{
+  font-size: 150%;
+}
+div.list-movies-hot div.best-movies-button{
+  margin-left: 800px;
+  float: right;
+  margin-right: 0;
+}
+div.list-movies-hot div.best-movies-button-3{
+  margin-left: 335px;
+  float: right;
+  margin-right: 0;
+}
+button.films{
+  background-color: #339900;
+  color:white;
+  padding: 5px;
+  font-size: 16px;
+  
+}
+td.list-films{
+  line-height: 24px;
+  margin-left: 5px;
+}
+.all-row{
+  width: 100%;
+}
+.row-films{
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.2);
+  background: #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+}
+button.films:hover{
+  background-color: #F7FE2E;
+  color: #000;
+}
+a.movies{
+  color: #000;
+}
+a.movies:hover{
+  text-decoration: underline;
+}
+a.games:hover{
+  text-decoration: underline;
+}
+.padding-films{
+  padding-left: 10px;
+}
+.info-films{
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-left: : 10px;
+}
+.advertise-movies{
+  display: table-row;  
+}
+.info-movies{
+  max-height: 24px;
+  overflow: hidden;
+  position: relative;
+  word-break: break-all;
+  text-align: left;
+}
+p.info-movies a{
+  color: #000;
+}
+.rate-price{
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 3px;
+}
+.star{
+  display: table-cell;
+}
+.checked {
+  color: orange;
+}
+div.price{
+  text-align: right;
+}
+div.price a{
+  display: table-cell;
+  color: red;
+  
+}
+div.price a:hover{
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+li.left-nav a, li.left-content a{
+  color: #000;
+  display: block;
+}
+ul.nav-l, ul.content-l{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+li.left-nav {
+  display: block;
+  font-size: 150%;
+  text-decoration: none;
+}
+li.left-content{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.fa-th-list{
+  padding: 15px;
+  background: #333;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.fa-th-large{
+  padding: 15px;
+  background: #339900;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.fa-film{
+  padding: 15px;
+  background: #ff3300;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+li.left-content{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.entertainment:hover {
+  background-color: #333;
+  color: white;
+}
+li a.application:hover {
+  background-color: #339900;
+  color: white;
+}
+li a.movie:hover {
+  background-color: #ff3300;
+  color: white;
+}
+li.left-content a:hover {
+  background-color: #bbbbbb;
+  color: white;
+}
+li a.active{
+  background-color: #339900;
+  color: white;
+}
+.header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input#search{
+  width: 80%;
+  padding: 10px;
+}
+a.Login:hover{
+  text-decoration: underline;
+}
+button#search{
+  padding: 10px;
+  background-color: #4387fd;
+}
+p#login{
+  text-align: right;
+  margin-right: 5px;
+}
+img#header{
+  margin-left: 10px;
+}
+.content-l{
+  margin-top: 10px;
+}
+.footer{
+  width: 100%;
+}
+div.footer-1 span{
+  color: #000;
+}
+div.footer-1 a:hover{
+  text-decoration: underline;
+}
